@@ -1,6 +1,6 @@
 # How to retain the SfDataGrid properties when changing the data source?
 
-SfDataGrid have a support for retaining the old values such as sorting and grouping when reloading the SfDataGrid. It can be achieved by setting [SfDataGrid.AutoGenerateColumnsMode](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.DataGrid.SfDataGrid.html#Syncfusion_Maui_DataGrid_SfDataGrid_AutoGenerateColumnsMode) as other than ResetAll.
+The [.NET MAUI DataGrid](https://www.syncfusion.com/maui-controls/maui-datagrid) provides the support to bind the [SfDataGrid.Columns](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.DataGrid.SfDataGrid.html#Syncfusion_Maui_DataGrid_SfDataGrid_Columns) have a support for retaining the old values such as sorting and grouping when reloading the SfDataGrid. It can be achieved by setting [SfDataGrid.AutoGenerateColumnsMode](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.DataGrid.SfDataGrid.html#Syncfusion_Maui_DataGrid_SfDataGrid_AutoGenerateColumnsMode) as other than ResetAll.
 
 When you change ItemsSource for SfDataGrid, then the columns are generated on the basis of option set for `SfDataGrid.AutoGenerateColumnsMode`.
 The SfDataGrid.AutoGenerateColumnsMode includes the following modes,
